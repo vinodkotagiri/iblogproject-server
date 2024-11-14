@@ -22,5 +22,12 @@ export default {
   PORT,
   connectDB,
   API_VERSION,
-  JWT_SECRET: process.env.JWT_SECRET
+  JWT_SECRET: process.env.JWT_SECRET,
+  MAIL:{
+    SERVICE:process.env.MAIL_SERVICE,
+    HOST:process.env.MAIL_HOST,
+    ID:process.env.MAIL,
+    PWD:process.env.PWD,
+    PORT:process.env.MAIL_PORT
+  }
 };
